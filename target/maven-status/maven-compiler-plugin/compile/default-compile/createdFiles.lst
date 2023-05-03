@@ -1,7 +1,7 @@
-com\mycompany\ventas_programa05cc\DAODetalleVenta.class
-com\mycompany\ventas_programa05cc\HibernateUtil.class
-com\mycompany\ventas_programa05cc\Ventas_Programa05CC.class
-com\mycompany\ventas_programa05cc\Venta.class
-com\mycompany\ventas_programa05cc\DAOVenta.class
-com\mycompany\ventas_programa05cc\IDAOGeneral.class
-com\mycompany\ventas_programa05cc\DetalleVenta.class
+com\mycompany\ventas_programa06cc\Programa06CC.class
+com\mycompany\ventas_programa06cc\DAODetalleVenta.class
+com\mycompany\ventas_programa06cc\IDAOGeneral.class
+com\mycompany\ventas_programa06cc\DAOVenta.class
+com\mycompany\ventas_programa06cc\HibernateUtil.class
+com\mycompany\ventas_programa06cc\DetalleVenta.class
+com\mycompany\ventas_programa06cc\Venta.class

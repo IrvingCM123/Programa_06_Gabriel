@@ -48,8 +48,6 @@ public class DAOVenta implements IDAOGeneral<Venta, Long> {
 
         try ( Session session = HibernateUtil.getSession()) {
 
-            Transaction t = session.beginTransaction();
-
             if (empleadoo != null) {
                 session.delete(empleadoo);
                 Logger.getLogger(DAOVenta.class.getName()).log(Level.INFO, "Se elimino Empleado");
@@ -106,13 +104,11 @@ public class DAOVenta implements IDAOGeneral<Venta, Long> {
     @Override
     public Venta findByID(Long id) {
         Venta venta = null;
-        List obj;
 
         try ( Session session = HibernateUtil.getSession()) {
             Transaction t = session.beginTransaction();
 
             venta = session.get(Venta.class, id);
-            //obj = session.createQuery("from Venta v inner join DetalleVenta vd on v.clave = vd.ventaID").list();
 
             t.commit();
             session.close();
