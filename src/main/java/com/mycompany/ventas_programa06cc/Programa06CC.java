@@ -26,5 +26,7 @@ public class Programa06CC {
 
         daodetalle.create(detalle);
 
+        System.out.print("wwe");
+
     }
 }
